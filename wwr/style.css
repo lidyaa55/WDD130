@@ -1,38 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hind:wght@300&display=swap");
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
 }
-
-nav a,
+.msg p {
+  font-family: "Great Vibes";
+  font-size: 0.8em;
+}
+.msg {
+  background-color: #6f7364;
+  line-height: 1.5em;
+}
 #hero-msg h1,
-#hero-msg h4,
-.button-box,
-main,
-section {
+#hero-msg h4 {
+  text-align: center;
+}
+.button-box {
+  text-align: center;
+}
+main section {
   text-align: center;
 }
 
 #hero-img {
   margin: 0 auto;
   display: block;
+  width: 100%;
 }
 #background {
   height: 725px;
 }
-
-body,
-header,
-nav a:hover,
-.book,
-.join .book:hover,
-.join:hover,
-#background,
 .msg,
-footer,
-body {
-  background-color: white;
-  color: white;
-}
 header {
   background-color: black;
   color: antiquewhite;
@@ -40,10 +39,6 @@ header {
 nav a:hover {
   background-color: black;
   color: #d9a3c7;
-}
-.book {
-  background-color: aquamarine;
-  color: indigo;
 }
 .join .book:hover {
   background-color: darkorchid;
@@ -54,25 +49,18 @@ nav a:hover {
   color: hotpink;
 }
 #background {
-  background-color: deepskyblue;
-  color: hotpink;
+  background-color: tan;
 }
 .msg {
-  background-color: greenyellow;
+  background-color: gray;
   color: hotpink;
 }
 footer {
-  background-color: darkseagreen;
+  background-color: rgb(188, 143, 177);
   color: hotpink;
 }
 .icon {
   width: 80px;
-}
-nav a {
-  text-align: center;
-  background-color: rgb(0, 255, 17);
-  color: goldenrod;
-  text-decoration: none;
 }
 footer p {
   font-size: 1.2em;
@@ -81,4 +69,99 @@ footer p a:hover {
   text-decoration: underline;
   background-color: rgb(0, 255, 17);
   color: goldenrod;
+}
+body {
+  background-color: #fcfbfb;
+  font-family: "Great Vibes";
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 0;
+}
+#logo_link {
+  padding-top: 5px;
+}
+.icon,
+.msg,
+footer .social img {
+  padding-top: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #fcfbfb;
+  text-align: center;
+  padding: 35px;
+}
+.book,
+.join {
+  text-decoration: none;
+  color: teal;
+  text-align: center;
+  padding: 15px 30px;
+  font-size: 18px;
+  margin-top: 50px;
+  border-radius: 5px;
+  background-color: aquamarine;
+}
+
+.icon {
+  text-decoration: none;
+  color: #fcfbfb;
+  text-align: center;
+  padding-top: 10px;
+}
+.msg {
+  text-decoration: none;
+  color: #fcfbfb;
+  text-align: center;
+  padding: 35px;
+}
+.msg p {
+  color: #fcfbfb;
+  padding-bottom: 15px;
+  font-size: 0.8em;
+}
+
+.social img {
+  text-decoration: none;
+  color: #fcfbfb;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.home-title {
+  color: black;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  font-family: "Great Vibes";
+  font-size: 2em;
+}
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin-top: 200px 0;
+}
+footer {
+  background-color: #d9a3af;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 25px 50px;
+  margin-top: 200px;
+}
+.card-img {
+  border: 10px solid black;
+}
+main section img {
+  box-sizing: border-box;
+}
+.logo {
+  width: 80px;
+}
+.mountains {
+  margin-top: 40px;
+  margin-bottom: 100px;
 }

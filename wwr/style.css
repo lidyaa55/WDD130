@@ -249,6 +249,11 @@ nav {
   font-size: 100px;
   text-align: center;
 }
+#chuckwalla2 {
+  align-self: center;
+  margin-left: 320px;
+  width: 900px;
+}
 
 @media screen and (max-width: 900px) {
   #hero,

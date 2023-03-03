@@ -244,6 +244,12 @@ nav {
   grid-column: 6/10;
   grid-row: 6/7;
 }
+/* Blog css below this line  */
+#Blog {
+  font-size: 100px;
+  text-align: center;
+}
+
 @media screen and (max-width: 900px) {
   #hero,
   .home-grid {

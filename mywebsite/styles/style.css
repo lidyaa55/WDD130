@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hind:wght@300&display=swap");
+.logo {
+  width: 150px;
+}
+header {
+  display: grid;
+  grid-template-columns: 150px auto;
+  background-color: black;
+}
+nav a {
+  text-decoration: none;
+  color: #fcfbfb;
+  text-align: center;
+  padding: 35px;
+  padding-top: 89px;
+  font-family: "Great Vibes";
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer p {
+  font-size: 1.2em;
+}
+footer p a:hover {
+  text-decoration: underline;
+  background-color: rgb(0, 255, 17);
+  color: goldenrod;
+}
+footer {
+  background-color: #aabd8c;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 25px 50px;
+  margin-top: 200px;
+}
+.welcome {
+  text-align: center;
+  font-size: 180px;
+  font-family: "Great Vibes";
+}
+.maintext {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Great Vibes";
+}
+.flag img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+.food {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+.hometext {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Great Vibes";
+}
+body {
+  background-color: aquamarine;
+}
